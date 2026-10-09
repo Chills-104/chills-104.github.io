@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Energy Monitor – personal home energy tool</title>
+<style>
+  body{font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif;max-width:42rem;margin:3rem auto;padding:0 1rem;color:#1d1d1b}
+  h1{font-size:1.6rem} a{color:#185FA5}
+</style>
+</head>
+<body>
+<h1>Energy Monitor</h1>
+<p>Energy Monitor is a personal home-automation tool written and used by one person, Carl Hills, for a single household in Belgium. It runs as an add-on inside the owner's own Home Assistant installation.</p>
+
+<h2>What it does</h2>
+<p>Every night it collects the household's solar production, battery, grid import/export, electricity price and weather data, checks the day for problems, and sends a short daily report to the owner. It is used to judge how well the solar panels, home battery and dynamic electricity tariff are working together.</p>
+
+<h2>How it uses Google Drive</h2>
+<p>The tool copies its own data exports (data tables and daily report texts) into a folder in the owner's own Google Drive, so the owner can read them from other devices and analyse them. It uses only the <code>drive.file</code> permission, which limits it to files and folders that the tool itself creates. It cannot see, read or change any other file in the owner's Drive, and it does not read the owner's profile, email address or contacts.</p>
+
+<h2>Who can use it</h2>
+<p>This is not a public product and is not offered to other users. The only Google account that authorises it is the owner's.</p>
+
+<p><a href="privacy.html">Privacy policy</a></p>
+<p>Contact: kortenakenhills@gmail.com</p>
+</body>
+</html>
